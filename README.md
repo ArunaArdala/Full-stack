@@ -1,2 +1,3 @@
 # Full-stack
-SpringBoot + ReactJs
+JavaScript Project
+
