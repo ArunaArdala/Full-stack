@@ -12,17 +12,17 @@ export class AppComponent {
   constructor( public router : Router)
   {
       this.currentEnv = "Development";
-      this.router.navigate(['']);
+      this.router.navigate(['app-update-participant-status']);
       console.log("constructor");
   }
 
   signoutUser()
   {
-
+      this.router.navigate(['']);
   }
 
   NavToHome()
   {
-    this.router.navigate([''])
+    this.router.navigate(["app-home"])
   }
 }
