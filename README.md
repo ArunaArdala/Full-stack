@@ -1,3 +1,0 @@
-# Full-stack
-JavaScript Project
-
